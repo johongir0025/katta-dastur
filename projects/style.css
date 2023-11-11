@@ -1,0 +1,432 @@
+nav {
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    gap: 60px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px black;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.d {
+    width: 65px;
+    top: 35px;
+    right: 40px;
+    height: 30px;
+    background-color: rgb(87, 64, 129);
+    position: absolute;
+    right: 40px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d:hover {
+    scale: 1.05;
+    border: 1px solid rgb(87, 64, 129);
+}
+
+nav svg {
+    position: absolute;
+    gap: 10px;
+    margin-left: -20px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+}
+
+a:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+
+a svg {
+    scale: 1.1;
+    transition: 1s;
+}
+
+.tip1 {
+    right: 400px;
+}
+
+.tip2 {
+    right: 280px;
+}
+
+.tip3 {
+    right: 150px;
+}
+
+h1 {
+    width: 100%;
+    text-align: left;
+    /* border: 2px solid gray; */
+    color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid gray; */
+    background-color: black;
+    color: whitesmoke;
+    list-style: none;
+    gap: 40px;
+}
+
+.container {
+    width: 1500px;
+    height: 1200px;
+    background-color: #98c5e9;
+}
+
+.project__main {
+    font-family: sans-serif;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__text {
+    font-family: sans-serif;
+    transition: .3s ;
+    margin-left: 2em;
+    display: block;
+    padding: 1em;
+    width: 20em;
+    height: 480px;
+    border-radius: 4px;
+    position: fixed;
+    color: #6391e2;
+}
+
+.project__text:hover {
+    box-shadow: 3px 5px 4px 2px rgba(57, 56, 77, 0.41);
+}
+
+.project__cardSection {
+    font-family: sans-serif;
+    width: 1000px;
+    height: 677px;
+    display: grid;
+    margin-top: -10px;
+    position: relative;
+    left: 30%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.purple {
+    font-family: sans-serif;
+    color: white;
+}
+
+.project__techIcons a svg {
+    margin-top: 60px;
+    margin-left: 99px;
+    color: rgba(57, 56, 77, 0);
+}
+
+.project__techIcons a svg:hover {
+    color: white;
+}
+
+.project__IconsContainer {
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-200px);
+    width: 300px;
+    height: 150px;
+    margin-top: 21px;
+    margin-left: 5px;
+    background-color: rgba(57, 56, 77, 0);
+    transition: .5s ease-in-out;
+    border-radius: 5px;
+    color: rgba(57, 56, 77, 0);
+}
+
+.project__IconsContainer:hover {
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-200px);
+    width: 300px;
+    height: 150px;
+    margin-top: 21px;
+    margin-left: 5px;
+    background-color: rgba(57, 56, 78, .9);
+    transition: .5s ease-in-out;
+    border-radius: 5px;
+    color: white;
+}
+
+.project__techIcons {
+    font-family: sans-serif;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 4px 5px 4px 3px rgba(57, 56, 77, 0);
+    transition: .4s ease 0s;
+    color: rgba(57, 56, 77, 0);
+}
+
+.project__techIcons:hover {
+    font-family: sans-serif;
+    width: 80%;
+    height: 80%;
+    border: 1.7px solid white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.178);
+    transition: .4s ease 0s;
+    scale: 1.0;
+    transition: 1s;
+    color: white;
+}
+
+.project__card1 img {
+    font-family: sans-serif;
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card2 img {
+    font-family: sans-serif;
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card3 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card4 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card5 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card6 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card7 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card8 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card9 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card10 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card11 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card12 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card13 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card14 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project__card15 img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.resume__btn {
+    font-family: sans-serif;
+    outline: none;
+    border: 1px solid #1f6ef8;
+    border-radius: 5px;
+    margin-top: 220px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #4c3270;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.resume__links {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    flex-direction: column;
+}
+
+.resume__links svg {
+    color: white;
+    font-family: sans-serif;
+    vertical-align: middle;
+    margin-top: 15px;
+    font-size: 2em;
+    transform: scale(1.2);
+    box-shadow: 0 0 15px;
+    border-radius: 50%;
+    animation: animainm 1s infinite;
+}
+
+@keyframes animainm {
+
+    0% {
+        transform: translate();
+    }
+
+    50% {
+        transform: translateY(30px);
+
+    }
+
+    100% {
+        transform: translate(0);
+    }
+
+}
